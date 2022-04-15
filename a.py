@@ -1,24 +1,4 @@
-# import requests
-# from bs4 import BeautifulSoup
 
-# #array of just crypto names
-# names = []
-
-# #gets content from site
-# site = requests.get("https://cryptopanic.com/news/bitcoin/")
-
-# #opens content from site
-# info = site.content
-# soup = BeautifulSoup(info,"html.parser")
-
-# #class ID for name of crypto
-# type_name = 'new'
-
-# #crypto names + other unnecessary info
-# names_raw = soup.find_all('p', attrs={'class': 'sc-1eb5slv-0 iJjGCS'})
-
-# for type_name in names_raw:
-#     print(type_name.text, type_name.next_sibling)
 
 
 
